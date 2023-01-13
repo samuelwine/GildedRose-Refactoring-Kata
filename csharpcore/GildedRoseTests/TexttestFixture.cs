@@ -40,7 +40,7 @@ namespace GildedRoseTests
                 new Item {Name = "Conjured Mana Cake", SellIn = 3, Quality = 6}
             };
 
-            var app = new GildedRose(Items);
+            var app = new GildedRoseKata.GildedRose(Items);
 
             int days = 2;
             if (args.Length > 0)
