@@ -18,6 +18,11 @@ namespace GildedRoseKata
 
             for (var i = 0; i < Items.Count; i++)
             {
+                if (Items[i].Name == Sulfuras)
+                {
+                    return;
+                }
+
                 if (Items[i].Name != AgedBrie && Items[i].Name != BackStage)
                 {
                     if (Items[i].Quality > 0)
